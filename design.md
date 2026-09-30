@@ -2,7 +2,7 @@
 
 ## 1. Design intent
 
-Worbee should feel like a premium design studio for a Bali workspace: calm, tactile, and immediately understandable. The product is an interactive builder, not a conventional catalogue, so the isometric canvas remains the visual hero and controls stay focused around it.
+Worbee should feel like a premium design studio for a personal workspace: calm, tactile, and immediately understandable. The product is an interactive builder, not a conventional catalogue, so the isometric canvas remains the visual hero and controls stay focused around it.
 
 The visual direction combines minimalist editorial layout with flat, bordered UI. It borrows the clarity of premium direct-to-consumer retail while giving the sprite scene room to feel playful and alive.
 
@@ -22,7 +22,7 @@ The visual direction combines minimalist editorial layout with flat, bordered UI
 | --- | --- | --- |
 | `ink` | `#111827` | Primary CTA, active controls, primary text |
 | `ink-hover` | `#374151` | Hovered primary actions |
-| `coral` | `#dc2626` | Monis red accent, price promotion, important highlights only |
+| `coral` | `#dc2626` | Brand accent, price promotion, important highlights only |
 | `canvas` | `#ffffff` | Page and panel background |
 | `canvas-muted` | `#f9fafb` | Product tray, quiet panels, empty states |
 | `surface-hover` | `#f3f4f6` | Hovered cards and controls |
@@ -110,7 +110,7 @@ Respect `prefers-reduced-motion`: replace placement motion with an immediate sta
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────┐
-│ Monis / Worbee                         Saved setup     [Rent setup]     │
+│ Worbee                                  Saved setup     [Review setup]  │
 ├───────────────┬──────────────────────────────────────┬───────────────────┤
 │ Product tray  │                                      │ Setup summary     │
 │               │        Isometric workspace           │                   │
@@ -165,9 +165,9 @@ Respect `prefers-reduced-motion`: replace placement motion with an immediate sta
 
 ### Header
 
-- Left: Monis mark and “Worbee” label.
-- Center or desktop-left: concise context such as “Design your Bali workspace.”
-- Right: saved-state indicator and primary `Rent setup` button.
+- Left: the Worbee wordmark.
+- Center or desktop-left: concise context such as “Design your workspace.”
+- Right: saved-state indicator and primary `Review setup` button.
 - Keep the header uncluttered; do not add catalogue navigation, account menus, or marketing links to the builder flow.
 
 ### Category tabs
@@ -199,7 +199,7 @@ Respect `prefers-reduced-motion`: replace placement motion with an immediate sta
 - Use 1px dividers between item rows.
 - Show a small green availability dot near the inventory note.
 - The total is visually strong but not red; use ink and tabular numerals.
-- Primary action: black, fully rounded `Review setup` or `Rent this setup` button.
+- Primary action: black, fully rounded `Review setup` button.
 
 ### Checkout review
 
@@ -243,4 +243,4 @@ Respect `prefers-reduced-motion`: replace placement motion with an immediate sta
 - Use fully rounded controls for clickable actions and filters.
 - Use thin borders to organize information and tabular numerals for prices.
 - Make selection, placement validity, and the current monthly estimate easy to understand at a glance.
-- Keep the primary rent action visible without blocking the workspace canvas.
+- Keep the primary review action visible without blocking the workspace canvas.

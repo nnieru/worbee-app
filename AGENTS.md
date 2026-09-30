@@ -12,7 +12,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Project context
 
-Worbee is an interactive workspace builder for monis.rent. Users choose isometric furniture sprites, drag or tap them onto a 2D workspace, then review their rental-ready setup.
+Worbee is an interactive workspace builder for a furniture-rental service. Users choose isometric furniture sprites, drag or tap them onto a 2D workspace, then review their rental-ready setup.
 
 Treat these root documents as authoritative:
 
@@ -92,7 +92,7 @@ public/assets/
 [`design.md`](design.md) is the visual authority.
 
 - Keep the isometric canvas visually dominant over controls.
-- Use white and soft off-white surfaces; use ink (`#111827`) for primary actions and limited Monis coral (`#dc2626`) as an accent.
+- Use white and soft off-white surfaces; use ink (`#111827`) for primary actions and a limited coral (`#dc2626`) accent.
 - Organize with thin borders. Do not use heavy shadows on cards, sprites, or main panels.
 - Use fully rounded pill shapes for interactive buttons, tabs, and tags; use modest rounding for panels and cards.
 - Use Inter or its configured system fallback and tabular numerals for prices, quantities, and totals.
