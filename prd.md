@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Worbee — Workspace Builder** is a playful, visual workspace configurator for monis.rent. It helps digital nomads and startup teams a rental-ready office setup, see it take shape in real time, and submit it as a rental enquiry.
+**Worbee — Workspace Builder** is a playful, visual workspace configurator for a furniture-rental service. It helps digital nomads and startup teams create a rental-ready office setup, see it take shape in real time, and submit it as a rental enquiry.
 
 The experience should feel closer to designing a room in a game than shopping from a catalogue: users choose furniture and accessories, immediately see their workspace update, review the setup, and rent it.
 
@@ -11,7 +11,7 @@ The experience should feel closer to designing a room in a game than shopping fr
 - Make choosing office furniture fast, visual, and enjoyable.
 - Help users confidently assemble a practical workspace for their stay.
 - Convert completed designs into qualified rental enquiries.
-- Showcase monis.rent as a flexible, modern alternative to buying furniture.
+- Present furniture rental as a flexible, modern alternative to buying furniture.
 
 ## Primary user
 
@@ -19,7 +19,7 @@ A freelance developer or small startup team who needs a functional workspace wit
 
 ## Core experience
 
-1. User lands on “Build your Bali workspace.”
+1. User lands on “Build your workspace.”
 2. A polished illustrated or isometric workspace appears in the center of the screen.
 3. They select furniture from a compact configurator panel.
 4. Each selection updates the visual scene instantly, including price and item count.
@@ -44,7 +44,7 @@ The MVP centers on a desk setup, but the interaction model must support optional
 | ---------------- | --------------------------------------------------------------------------- |
 | Coffee Station   | Coffee machine, side table, mugs or water dispenser                         |
 | Relax Zone       | Bean bag, lounge chair, side table, floor lamp                              |
-| Outdoor Gear     | Surfboard rack or storage for nomad-friendly equipment, if offered by Monis |
+| Outdoor Gear     | Optional outdoor equipment or storage, if offered by the rental provider     |
 | Garage / Storage | Tool shelf, storage cabinet, or utility shelving                            |
 
 These zones should appear as optional cards or tabs beneath the main workspace. Selecting a zone changes the preview focus or opens a lightweight panel; it must not force the user to configure every zone before renting their desk setup.
@@ -76,7 +76,7 @@ The workspace preview is the heart of the product.
 - Show contextual add controls for common accessories before they have been selected, then replace those controls with the rendered item and a remove/change action.
 - Support a focused view for any optional room zone while preserving the user’s main desk setup.
 
-Use a warm, sunny Bali-inspired visual language with a bold red accent aligned to the Monis brand. Avoid a generic ecommerce grid as the primary interaction.
+Use a warm, natural visual language with a bold red accent aligned to the product brand. Avoid a generic ecommerce grid as the primary interaction.
 
 ### Setup summary and checkout
 
@@ -94,8 +94,8 @@ The checkout view expands this into an itemized summary and collects:
 - Email or WhatsApp number
 - Desired delivery date
 - Rental duration
-- Bali location or address
-- Notes for the Monis team
+- Delivery location or address
+- Notes for the customer care team
 
 On submission, show a clear success state: “Your dream workspace is on its way to becoming real.” The initial version may send the enquiry to a configured email endpoint, form service, or backend route.
 
